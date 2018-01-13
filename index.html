@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>2018 Front End Developer Challenge</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type ="text/css" href="css/main.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	
+	<body>
+		<div class="form-box">
+			<p class="title">Stay up to date with ecommerce trends <br/>with Shopify's newsletter</p>
+			<div class="line-break"></div>
+			<p class="message">Subscribe for free marketing tips</p>
+			<form method="post" action="/main.js" onsubmit="return validate();">
+				<input type="text" name="email" id="email" placeholder="Email Address"></input>
+				<select id="interest" name="interest">
+				  <option value="" disabled selected hidden>Interested in...</option>
+				  <option id="1" value="dropshipping">Dropshipping</option>
+				  <option id="2" value="business-models">Business Models</option>
+				  <option id="3" value="marketing">Online Marketing</option>
+				</select><br>
+				<p id="invalid"></p>
+				<input class ="sign-up-button" type="submit" name="sign-up" value="Sign up now"></input>
+			</form>
+			<div class="unsubscribe-box">
+				<a class="unsubscribe" href="#">Unsubscribe</a>
+			</div>
+		</div>
+	</body>
+</html>
