@@ -1,0 +1,94 @@
+body {
+	background-color: #000639;
+}
+
+p {
+	color: white;
+}
+
+/*Form Box*/
+.form-box {
+	font-family: 'Helvetica';
+	width: 500px;
+	background: rgba(0,0,0,0);
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+
+/*Tile Of Form Box*/
+.title {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/*Green Line Below Title*/
+.line-break {
+	width: 25px;
+	margin: left;
+	border-top: 2px solid #7AB55C;
+}
+
+/*Message Above Email Textbox*/
+.message {
+	font-size: 16px;
+	margin: 40px 0 15px;
+}
+
+/*Email Textbox*/
+input[type=text] {
+	margin-right: 10px;
+	padding-left: 10px;
+	height: 37px;
+	width: 55%;
+	border-radius: 5px;
+	border: none;
+}
+
+/*Interest Selection*/
+select {
+	height: 39px;
+	width: 40%;
+	padding-left: 8px;
+	border-radius: 5px;
+	border: none;
+	color: #7b7b7b;
+}
+
+/*Email Invalid Message*/
+#invalid  {
+	margin-top: 8px;
+	color: #C23628;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/*Sign Up Now Button*/
+input[type=submit] {
+    width: 100%;
+	font-weight: 550;
+    color: white;
+	background-color: #5c6ac4;
+    padding: 14px;
+    margin-top: 11px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Hovering Sign Up Button*/
+input[type=submit]:hover {
+	background-color: #4A00DD;
+}
+
+/*Unsubscribe Div*/
+.unsubscribe-box {
+	text-align: center;
+	margin-top: 205px;
+	font-size: 10px;
+}
+
+/*Unsubscribe Link*/
+a.unsubscribe {
+	color: white;
+}
